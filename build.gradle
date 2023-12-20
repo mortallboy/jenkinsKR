@@ -3,7 +3,7 @@ plugins {
     id 'jacoco'
 }
 javadoc {
-    destinationDir = file("${build}/docs/javadoc")
+    destinationDir = file("${buildDir}/docs/javadoc")
 }
 repositories {
     mavenCentral()
