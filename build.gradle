@@ -11,6 +11,9 @@ dependencies {
     testImplementation "org.junit.jupiter:junit-jupiter"
     testImplementation "org.assertj:assertj-core:3.24.2"
 }
+test{
+    useJUnitPlatform()
+}
 
 group = 'org.douggschwind'
 version = '1.0-SNAPSHOT'
